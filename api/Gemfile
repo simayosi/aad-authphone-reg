@@ -1,0 +1,18 @@
+# frozen_string_literal: true
+
+source 'https://rubygems.org'
+
+gem 'rake'
+gem 'sinatra'
+gem 'msgraph-client'
+gem 'access_token_proxy', git: 'https://github.com/simayosi/aad-authphone-reg', branch: 'main'
+
+group :mysql2, optional: true do
+  gem 'mysql2'
+end
+
+group :pg, optional: true do
+  gem 'pg'
+end
+
+gem 'activerecord', group: [:mysql2, :pg]

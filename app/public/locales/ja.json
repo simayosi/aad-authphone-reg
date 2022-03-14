@@ -1,0 +1,51 @@
+{
+  "Title": "Microsoft 365多要素認証用 電話番号登録",
+  "Description": "Microsoft 365の多要素認証のための電話番号登録ページ",
+  "UPN": {
+    "Label": "ユーザープリンシパル名 (UPN)",
+    "Desc": "Microsoft 365のプロフィールに表示されるメールアドレス"
+  },
+  "PhoneNumber": {
+    "Label": "電話番号",
+    "Desc": "例）+81 234567890"
+  },
+  "PhoneType": {
+    "mobile": "電話",
+    "alternateMobile": "代替の電話",
+    "office": "会社電話"
+  },
+  "Confirm": {
+    "Message_add": "「{{type}}」の番号を登録します。",
+    "Message_update": "「{{type}}」の番号を更新します。"
+  },
+  "Result": {
+    "Message_add": "「{{type}}」の番号を登録しました。",
+    "Message_update": "「{{type}}」の番号を更新しました。"
+  },
+  "Button": {
+    "Submit": "登録",
+    "Confirm": "OK",
+    "Back": "キャンセル",
+    "Dismiss": "戻る"
+  },
+  "Error": {
+    "Message": {
+      "Unsupported_browser":
+        "お使いのブラウザでは利用できません。",
+      "Connection_Error":
+        "ネットワークエラーが発生しました。",
+      "Server_Error":
+        "サーバーが以下のエラーを返しました。",
+      "No_registered_method":
+        "規定のサインイン方法が未登録です。",
+      "UPN_verification_failed":
+        "ユーザープリンシパル名の検証に失敗しました。",
+      "Graph_SSL_Error":
+        "Microsoftシステムとの接続に失敗しました。時間をおいて再度お試しください。",
+      "Graph_Error":
+        "Microsoftシステムから以下のエラー応答がありました。",
+      "Unknown":
+        "不明なエラーが発生しました。"
+    }
+  }
+}

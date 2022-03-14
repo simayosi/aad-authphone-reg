@@ -1,0 +1,51 @@
+{
+  "Title": "Phone number registration for Microsoft 365 MFA",
+  "Description": "App to register a phone number for multi-factor authentication of Microsoft 365",
+  "UPN": {
+    "Label": "User Principal Name",
+    "Desc": "Email Address shown in your profile on Microsoft 365."
+  },
+  "PhoneNumber": {
+    "Label": "Phone number",
+    "Desc": "Example: +1 2345678901"
+  },
+  "PhoneType": {
+    "mobile": "Phone",
+    "alternateMobile": "Alternate phone",
+    "office": "Office phone"
+  },
+  "Confirm": {
+    "Message_add": "Adding \"{{type}}\" number.",
+    "Message_update": "Updating \"{{type}}\" number."
+  },
+  "Result": {
+    "Message_add": "\"{{type}}\" number was added.",
+    "Message_update": "\"{{type}}\" number was updated."
+  },
+  "Button": {
+    "Submit": "Register",
+    "Confirm": "Confirm",
+    "Back": "Back",
+    "Dismiss": "Back"
+  },
+  "Error": {
+    "Message": {
+      "Unsupported_browser":
+        "Your browser is not supported.",
+      "Connection_Error":
+        "A connection error occurred.",
+      "Server_Error":
+        "The server responds the following error.",
+      "No_registered_method":
+        "Your default sign-in method is unregistered yet.",
+      "UPN_verification_failed":
+        "User Principal Name verification failed.",
+      "Graph_SSL_Error":
+        "Connection to Microsoft MFA system failed.  Retry later.",
+      "Graph_Error":
+        "Microsoft MFA system returns the following error response.",
+      "Unknown":
+        "An unknown error occurred."
+    }
+  }
+}

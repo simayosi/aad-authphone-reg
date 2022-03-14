@@ -1,0 +1,7 @@
+# frozen_string_literal: true
+
+require 'access_token_proxy/rake_task'
+
+AccessTokenProxy::RakeTask.new
+
+task default: nil
